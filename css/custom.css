@@ -1,3 +1,7 @@
+.body{
+	padding-bottom: 40px;
+}
+
 .home{
 	padding-top: 40px;
 }
@@ -8,4 +12,19 @@
 
 .portfolio{
 	padding-top: 40px;
+}
+
+.jumbotron{
+	background-image: url("http://www.psdgraphics.com/file/colorful-triangles-background.jpg");
+	padding-bottom: 175px;
+}
+
+.header{
+	text-align: center;
+}
+
+.section{
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: #A9A9A9;
 }
