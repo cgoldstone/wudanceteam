@@ -16,7 +16,7 @@
 
 .jumbotron{
 	background-image: url("http://www.psdgraphics.com/file/colorful-triangles-background.jpg");
-	padding-bottom: 175px;
+	padding-bottom: 150px;
 }
 
 .header{
@@ -27,4 +27,23 @@
 	border-left-style: solid;
 	border-right-style: solid;
 	border-color: #A9A9A9;
+}
+
+.jumbotron h1 {
+	font-size: 10px;
+}
+
+.zoom1 .custom-class{
+	width: 80%;
+	max-width: 950px;
+}
+
+.zoom2 .custom-class{
+	width: 80%;
+	max-width: 1250px;
+}
+
+.zoom3 .custom-class{
+	width: 80%;
+	max-width: 1000px;
 }
