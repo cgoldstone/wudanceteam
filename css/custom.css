@@ -15,6 +15,11 @@
 	padding-bottom: 150px;
 }
 
+.portfolio .jumbotron {
+	padding-bottom: 10px;
+	width: 100%;
+}
+
 .header{
 	text-align: center;
 }
@@ -46,4 +51,9 @@
 .zoom3 .custom-class{
 	width: 80%;
 	max-width: 1000px;
+}
+
+.zoom4 .custom-class{
+	width: 80%;
+	max-width: 800px;
 }
