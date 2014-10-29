@@ -16,7 +16,7 @@
 }
 
 .portfolio .jumbotron {
-	padding-bottom: 10px;
+	padding-bottom: 75px;
 	width: 100%;
 }
 
@@ -36,6 +36,11 @@
 
 .jumbotron h2{
 	font-size: 2.5em;
+}
+
+.jumbotron .box{
+	background-color: #F0F8FF;
+	border-style: double;
 }
 
 .zoom1 .custom-class{
