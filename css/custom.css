@@ -4,20 +4,24 @@
 
 .home{
 	padding-top: 50px;
+	padding-bottom: 200px;
+	background-color: #F0F8FF;
 }
 
 .portfolio{
 	padding-top: 50px;
+	background-color: #F0F8FF;
+	font-family: "Trebuchet MS";
 }
 
-.jumbotron{
+.home .jumbotron{
 	background-image: url("http://www.psdgraphics.com/file/colorful-triangles-background.jpg");
 	padding-bottom: 150px;
 }
 
 .portfolio .jumbotron {
+	background-image: url("http://www.psdgraphics.com/file/colorful-triangles-background.jpg");
 	padding-bottom: 75px;
-	width: 100%;
 }
 
 .header{
@@ -41,6 +45,10 @@
 .jumbotron .box{
 	background-color: #F0F8FF;
 	border-style: double;
+}
+
+.portfolio h1{
+	font-size: 4em;
 }
 
 .zoom1 .custom-class{
