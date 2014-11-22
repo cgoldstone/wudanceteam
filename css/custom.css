@@ -4,3 +4,12 @@ body{
 	background-attachment: fixed;
 	background-position: center;
 }
+
+.title h1{
+	font-size: 4em;
+	text-align: center;
+}
+
+.year{
+	text-align: center;
+}
