@@ -33,28 +33,128 @@
           <ul class="nav navbar-nav">
             <li><a href="team.html"><button type="button" class="btn btn-primary navbar-btn">The Team</button></a></li>
           </ul>
-            <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav">
             <li><a href="about.html"><button type="button" class="btn btn-primary navbar-btn">About Us</button></a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><button type="button" class="btn navbar-btn btn-primary btn-lg" data-toggle="modal" data-target="#ContactModal">Contact</button></a></li>
+            <li><a href="#"><button type="button" class="btn navbar-btn btn-primary btn-lg" data-toggle="modal" data-target="#SignUpModal">Sign Up</button></a></li>
           </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><button type="button" class="btn btn-primary navbar-btn btn-lg" data-toggle="modal" data-target="#ContactModal">Contact</button></a></li>
+          </ul>
+
         </div><!--/.nav-collapse -->
         <div class="title">
-          <h1><strong>Washington University Dance Team</strong></h1>
-          <div class="filler">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-
+          <div class="row">
+            <h1><strong>Washington University Dance Team</strong></h1>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-md-offset-1 col-md-6">
+            <div class="TeamPic">
+              <img src="https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/63945_1490476771218062_5572765376481641678_n.jpg?oh=5f33fe65cd170d9d5dd64a12d0756e5f&oe=551049BA&__gda__=1423464207_4f10fd02f5781365d6b7493a56999f95" width="75%" class="img-responsive">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="SignUp">
+              <h1><strong>Spring tryouts are coming up!<strong></h1>
+              <h2>Sign up to audition using the button above!</h2>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-md-offset-1 col-md-6">
+            <img src="http://placehold.it/350x150" class="img-responsive">
+          </div>
+          <div class="col-md-offset-1 col-md-3">
+            <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/10177532_1411317179134022_4651582284952851019_n.jpg?oh=6db11b23af801288a9fdda8c9da24079&oe=5516A361&__gda__=1427083734_4b12d308dcd3f349cf4d733f1edc231f" width="100%" class="img-responsive">
+            </div>
+        <div class="filler">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="SignUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="myModalLabel">Sign up now to try out for the team!</h4>
+              </div>
+              <div class="modal-body">
+               <form role="form">
+                <div class="form-group">
+                  <label for="InputName">Name</label>
+                  <div class="input-group-lg">
+                    <input type="text" class="form-control" id="Text input" placeholder="Enter name">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="InputEmail">Email address</label>
+                  <div class="input-group-lg">
+                    <input type="email" class="form-control" id="InputEmail" placeholder="Enter email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="InputMessage">Give a brief description of your dance experience</label>
+                  <div class="input-group-lg">
+                    <input type="text" class="form-control" id="Text input" placeholder="Enter message">
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
-    </body>
-    </html>
+      <div class="modal fade" id="ContactModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Send us a message!</h4>
+            </div>
+            <div class="modal-body">
+             <form role="form">
+              <div class="form-group">
+                <label for="InputName">Name</label>
+                <div class="input-group-lg">
+                  <input type="text" class="form-control" id="Text input" placeholder="Enter name">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="InputEmail">Email address</label>
+                <div class="input-group-lg">
+                  <input type="email" class="form-control" id="InputEmail" placeholder="Enter email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="InputMessage">Write your message below</label>
+                <div class="input-group-lg">
+                  <input type="text" class="form-control" id="Text input" placeholder="Enter message">
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </div>
+</body>
+</html>
