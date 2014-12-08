@@ -3,6 +3,7 @@ body{
 	background-size: 75%;
 	background-attachment: fixed;
 	background-position: center;
+	font-family: "Trebuchet MS";
 }
 
 .title h1{
@@ -17,7 +18,7 @@ body{
 .SignUp h1{
 	text-align: center;
 	font-size: 3.5em;
-	color: #339933;
+	color: #336600;
 }
 
 .SignUp h2{
@@ -32,7 +33,7 @@ body{
 .class h1{
 	text-align: center;
 	font-size: 3.5em;
-	color: #339933;
+	color: #336600;
 }
 
 .class h2{
